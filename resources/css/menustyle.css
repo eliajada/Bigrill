@@ -1,0 +1,57 @@
+html {
+
+   background-image:  url(img/close-up-of-wooden-plank-326311.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   font-family: 'Lato', 'Arial', sans-serif;
+
+}
+
+.menu-scan div {
+
+    padding-left: 450px;
+    padding-top: 100px;
+
+
+}
+
+.menu-scan img {
+
+    box-shadow: 30px 10px 10px rgba(0, 0, 0, 0.51);
+}
+
+.back-home {
+
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.back-home a {
+
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-weight: 350;
+}
+
+.back-home a:hover {
+    border: 3px solid rgb(181, 181, 181);
+    border-radius: 20px;
+    border-width: 6px;
+    border-style:dotted;
+    border-spacing:10px;
+    transition: border 0.7s ease;
+}
+
+
+.back-home a:hover span {
+    display:none;
+
+}
+
+.back-home a:hover:before {
+
+    content:"Go back to main menu"
+
+}
