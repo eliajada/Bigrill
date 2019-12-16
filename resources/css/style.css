@@ -5,6 +5,7 @@ html {
 }
 
 header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/steak-and-flames-on-the-grill.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/steak-and-flames-on-the-grill.jpg);
     background-size: cover;
     background-position: center;
@@ -35,6 +36,7 @@ h1 {
 
 h2 {
 
+    font-weight: 400;
 }
 
 h3 {
@@ -45,19 +47,21 @@ h3 {
 .logo {
 
 
-    height: 100px;
-    width: auto;
+    height: 50%;
+    width: 20%;
     float: left;
-    margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 30px;
 
 
 }
+
 
 .main-navigation {
     margin-top: 50px;
     float: right;
     list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
 
 
@@ -127,22 +131,43 @@ h3 {
 
 .picture-section{
 
-    padding-left: 200px;
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 100px;
     background-color: #f5f5f5;
     border-bottom: 5px solid rgba(245, 245, 245, 0.94);
 }
+
+
+.gallery-text {
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 150%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 150px;
+
+
+}
+
 .picture-section img {
     height: auto;
     overflow: hidden;
     float:left;
+    -webkit-transform: scale(1.13);
     transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
     transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
     max-height: 100%;
     max-width: 100%;
     -webkit-filter: brightness(60%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
     transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
 
 
 }
@@ -154,7 +179,8 @@ h3 {
   float: left;
   width: auto;
   max-width: 20%;
-  padding: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
   position: relative;
   margin-left: 20px;
 
@@ -163,8 +189,12 @@ h3 {
 .picture-section .column img:hover {
 
     -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.09);
     transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
     transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
 }
 
 
@@ -178,6 +208,9 @@ h3 {
 
 
 .our-locations {
+
+    padding-bottom: 150px;
+    background-color: #ffffff;
 
 }
 
@@ -210,6 +243,7 @@ h3 {
   position: absolute;
   top: 40%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -229,6 +263,7 @@ h3 {
   height: 100%;
   width: 100%;
   opacity: 0;
+  -webkit-transition: opacity 0.5s;
   transition: opacity 0.5s;
   background-color: black;
 }
@@ -237,3 +272,133 @@ h3 {
   opacity: 0.7;
 }
 
+
+
+
+
+
+.testimonial-section {
+
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #f5f5f5;
+}
+
+.testimonial-section .row {
+    padding-left: 50px;
+}
+
+
+.testimonial-section .column {
+
+    width: 20%;
+    padding-left: 50px;
+    float: left;
+
+
+}
+
+.testimonial-section h1 {
+
+    color: black;
+    text-align-last: center;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.testimonial-section .column h2 {
+
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 150%;
+
+}
+
+
+blockquote {
+    padding: 2%;
+    font-size: 140%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial-section cite {
+    padding-top: 10px;
+    font-size: 120%;
+    font-weight: 1000;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonial-section img {
+
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+
+
+.app-section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-poster {
+
+    width: 20%;
+    padding-left: 400px;
+    float: left;
+
+
+}
+
+.app-section h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.app-section .column {
+
+
+}
+
+.app-section .app-description {
+
+    float: right;
+    padding-top: 100px;
+    padding-right: 300px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-store img {
+
+    width: 15%;
+    float: left;
+    padding-left: 100px;
+
+}
+
+.app-section .play-store img {
+
+    width: 17%;
+    float: left;
+
+}
