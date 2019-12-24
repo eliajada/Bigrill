@@ -44,6 +44,12 @@ h3 {
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
 .logo {
 
 
@@ -72,9 +78,29 @@ h3 {
     padding-left: 40px;
     padding-right: 80px;
     font-size: 30px;
+    font-weight: 300;
+
 
 
 }
+
+.main-navigation li:hover {
+    font-size: 33px;
+    -webkit-transition: 0.8s font-size ease-out;
+    transition: 0.8s font-size ease-out;
+}
+
+.main-navigation li a:hover {
+
+    border-bottom: 4px double #ebaf40;
+    -webkit-transition: 0.2s border-bottom ease;
+    transition: 0.2s border-bottom ease;
+
+
+}
+
+
+
 
 .main-navigation li a:link,
 .main-navigation li a:visited {
@@ -86,10 +112,11 @@ h3 {
 
 .center {
 
+    font-weight: 300;
     text-align: center;
     margin: auto 0;
     display: block;
-    margin-top:  250px;
+    margin-top:  150px;
 
 }
 
@@ -100,18 +127,23 @@ h3 {
 
 .menu-section{
 
-    background-color:aquamarine;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/close-up-of-wooden-plank-326311.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/close-up-of-wooden-plank-326311.jpg);
+    background-size: cover;
+    background-position: center;
     padding-bottom: 30px;
+    background-attachment: fixed;
 
 }
 
 .menu-section h2 {
-    color: black;
+    color: white;
     width: 20%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    font-weight: 400;
     text-transform: uppercase;
-    font-weight: 500;
     text-align: center;
     margin: auto auto;
     padding-top: 20px;
@@ -122,10 +154,13 @@ h3 {
 .menu-btn {
 
     display: block;
-    margin-left: auto;
+    padding-left: 675px;
     margin-right: auto;
-    width: 10%;
 
+}
+.menu-btn img {
+
+    width: 20%;
 }
 
 
@@ -384,7 +419,8 @@ blockquote:before {
 
     float: right;
     padding-top: 100px;
-    padding-right: 300px;
+    padding-left: 50px;
+    padding-right: 250px;
     padding-bottom: 100px;
 }
 
@@ -400,5 +436,154 @@ blockquote:before {
 
     width: 17%;
     float: left;
+
+}
+
+
+
+
+
+
+
+.form-section {
+
+    padding-top: 50px;
+    background-color:#f5f5f5;
+
+}
+
+.form-section .row {
+
+
+    font-size: 120%;
+    font-weight: 300;
+}
+
+.form-title {
+
+    padding-bottom: 50px;
+
+}
+
+
+.form-title h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.entire-form {
+
+    padding-left: 500px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.about-us {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+
+}
+
+.about-us h3 {
+
+    text-align: center;
+    font-weight: 300;
+}
+
+.about-us h2 a {
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    margin-right: 50px;
+
+
+}
+
+.about-us h2 a:hover {
+
+    border: 2px solid #0ea9ed;
+    color: black;
+    -webkit-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+
+}
+
+.about-us h2 {
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+
+.about-us .column ul li {
+
+    float: left;
+    font-size: 120%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.footer-nav {
+
+    padding-left: 500px;
+
+}
+
+.about-us {
+
+
+}
+
+
+
+.social-media {
+
+    padding-top: 27px;
+    padding-right: 650px;
+
+}
+
+.social-media .column li {
+
+    float: right;
+    font-size: 250%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.social-media .ion-social-twitter:hover {
+
+    color:aqua;
+
+
+}
+
+.social-media .ion-social-instagram:hover {
+
+    color:#E1306C;
+
+}
+.social-media .ion-social-facebook:hover {
+
+    color: #3b5998 ;
 
 }
