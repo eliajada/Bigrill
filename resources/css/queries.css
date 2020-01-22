@@ -1,0 +1,2840 @@
+/* ------------------------------------------------------------------------------*/
+/*                      */
+/*  from 1650 to 1950 */
+/* ------------------------------*/
+
+
+@media (min-width: 1650px) and (max-width: 1950px) {
+
+
+
+
+
+
+
+    html {
+
+   font-family: 'Lato', 'Arial', sans-serif;
+
+}
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/steak-and-flames-on-the-grill.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/steak-and-flames-on-the-grill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+body{
+    margin: 0%;
+}
+
+
+h1 {
+
+    margin-top: 5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-weight: 400;
+}
+
+h3 {
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+
+
+    height: 50%;
+    width: 20%;
+    float: left;
+    margin-left: 30px;
+
+
+}
+
+
+.main-navigation {
+    margin-top: 50px;
+    float: right;
+    list-style: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+
+
+}
+
+.main-navigation li {
+
+    padding-left: 40px;
+    padding-right: 80px;
+    font-size: 30px;
+    font-weight: 300;
+
+
+
+}
+
+.main-navigation li:hover {
+    font-size: 33px;
+    -webkit-transition: 0.8s font-size ease-out;
+    transition: 0.8s font-size ease-out;
+}
+
+.main-navigation li a:hover {
+
+    border-bottom: 4px double #ebaf40;
+    -webkit-transition: 0.2s border-bottom ease;
+    transition: 0.2s border-bottom ease;
+
+
+}
+
+
+
+
+.main-navigation li a:link,
+.main-navigation li a:visited {
+    color: beige;
+    text-decoration: none;
+
+
+}
+
+.center {
+
+    font-weight: 300;
+    text-align: center;
+    margin: auto 0;
+    display: block;
+    margin-top:  150px;
+
+}
+
+.row {
+
+
+}
+
+
+
+
+
+
+
+
+
+.menu-section{
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/close-up-of-wooden-plank-326311.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/close-up-of-wooden-plank-326311.jpg);
+    background-size: cover;
+    background-position: center;
+
+    background-attachment: fixed;
+    padding-bottom: 130px;
+    padding-top: 50px;
+
+}
+
+.menu-section h2 {
+    color: white;
+    width: 100%;
+    font-size: 200%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.menu-btn {
+
+    display: block;
+    padding-top: 50px;
+    padding-left: 850px;
+    margin-right: auto;
+
+}
+.menu-btn img {
+
+    width: 20%;
+}
+
+
+.picture-section{
+
+    padding-left: 150px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid rgba(245, 245, 245, 0.94);
+}
+
+
+.gallery-text {
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 150%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 150px;
+
+
+}
+
+.picture-section img {
+    height: auto;
+    overflow: hidden;
+    float:left;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+
+
+}
+.picture-section .row {
+    padding-bottom: 20px;
+}
+
+.picture-section .column {
+  float: left;
+  width: auto;
+  max-width: 20%;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  margin-left: 20px;
+
+}
+
+.picture-section .column img:hover {
+
+    -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+
+.picture-section .row::after {
+
+}
+
+
+
+
+
+
+.our-locations {
+
+    padding-bottom: 150px;
+    background-color: #ffffff;
+
+}
+
+.our-locations h1 {
+
+    color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.our-locations .row {
+    padding-left: 50px;
+
+}
+
+.our-locations img {
+    height: 300px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+
+}
+
+.our-locations h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 350;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.our-locations .column {
+  float: left;
+  width: auto;
+  max-width: 25%;
+  position: relative;
+  margin-left: 100px;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+
+.our-locations .column:hover .overlay {
+  opacity: 0.7;
+}
+
+
+
+
+
+
+.testimonial-section {
+
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #f5f5f5;
+}
+
+.testimonial-section .row {
+    padding-left: 50px;
+}
+
+
+.testimonial-section .column {
+
+    width: 20%;
+    padding-left: 50px;
+    float: left;
+
+
+}
+
+.testimonial-section h1 {
+
+    color: black;
+    text-align-last: center;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+.testimonial-section .column h2 {
+
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 150%;
+
+}
+
+
+blockquote {
+    padding: 2%;
+    font-size: 200%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial-section cite {
+    padding-top: 10px;
+    font-size: 120%;
+    font-weight: 1000;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonial-section img {
+
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+
+
+.app-section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-poster {
+
+    width: 20%;
+    padding-left: 400px;
+    float: left;
+
+
+}
+
+.app-section h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.app-section .column {
+
+
+}
+
+.app-section .app-description {
+
+    float: right;
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-store img {
+
+    width: 15%;
+    float: left;
+    padding-top: 200px;
+    padding-left: 200px;
+
+}
+
+.app-section .play-store img {
+
+    width: 17%;
+    padding-top: 200px;
+     padding-left: 100px;
+    float: left;
+
+}
+
+
+
+
+
+
+
+.form-section {
+
+    padding-top: 50px;
+    background-color:#f5f5f5;
+
+}
+
+.form-section .row {
+
+
+    font-size: 120%;
+    font-weight: 300;
+}
+
+.form-title {
+
+    padding-bottom: 50px;
+
+}
+
+
+.form-title h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.entire-form {
+
+    padding-left: 500px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.about-us {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+
+}
+
+.about-us h3 {
+
+    text-align: center;
+    font-weight: 300;
+}
+
+.about-us h2 a {
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    margin-right: 50px;
+
+
+}
+
+.about-us h2 a:hover {
+
+    border: 2px solid #0ea9ed;
+    color: black;
+    -webkit-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+
+}
+
+.about-us h2 {
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+
+.about-us .column ul li {
+
+    float: left;
+    font-size: 120%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.footer-nav {
+
+    padding-left: 700px;
+
+}
+
+.about-us {
+
+
+}
+
+
+
+.social-media {
+
+    padding-top: 27px;
+    padding-right: 880px;
+
+}
+
+.social-media .column li {
+
+    float: right;
+    font-size: 250%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.social-media .ion-social-twitter:hover {
+
+    color:aqua;
+
+
+}
+
+.social-media .ion-social-instagram:hover {
+
+    color:#E1306C;
+
+}
+.social-media .ion-social-facebook:hover {
+
+    color: #3b5998 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*                      */
+/*  from 1024 to 1348px */
+/* ------------------------------*/
+
+
+@media (min-width: 1024px) and (max-width: 1348px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*                     */
+/*  from 930 to 1024px */
+/* ------------------------------*/
+
+
+@media (min-width: 931px) and (max-width: 1024px) {
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*                     */
+/*  from 775 to 930px */
+/* ------------------------------*/
+
+
+@media (min-width: 776px) and (max-width: 930px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPad */
+/*  from 450 to 775px */
+/* ------------------------------*/
+
+
+@media (min-width: 501px) and (max-width: 775px) {
+
+
+
+
+
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/steak-and-flames-on-the-grill.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/steak-and-flames-on-the-grill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: inherit;
+
+}
+
+
+
+h1 {
+
+    margin-top: 5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-weight: 400;
+}
+
+h3 {
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+
+
+    height: 50%;
+    width: 60%;
+    float: center;
+    margin-left: 150px;
+
+
+}
+
+header {
+            padding-bottom: 300px;
+    padding-top: 70px;
+
+
+}
+
+    header h1 {
+
+        visibility: hidden;
+
+    }
+
+
+.main-navigation {
+    padding-top: 10px;
+    text-align: center;
+    list-style: none;
+    display: block;
+
+
+}
+
+.main-navigation li {
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-right: 280px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 300;
+    border: 1.5px solid white;
+    border-radius: 40px;
+
+
+
+}
+
+.main-navigation li:hover {
+    font-size: 33px;
+    -webkit-transition: 0.8s font-size ease-out;
+    transition: 0.8s font-size ease-out;
+}
+
+.main-navigation li a:hover {
+
+    border-bottom: 4px double #ebaf40;
+    -webkit-transition: 0.2s border-bottom ease;
+    transition: 0.2s border-bottom ease;
+
+
+}
+
+
+
+
+.main-navigation li a:link,
+.main-navigation li a:visited {
+    color: beige;
+    text-decoration: none;
+
+
+}
+
+.center {
+
+    font-weight: 300;
+    text-align: center;
+    margin: auto 0;
+    display: block;
+    margin-top:  150px;
+
+}
+
+.row {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-section{
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/close-up-of-wooden-plank-326311.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/close-up-of-wooden-plank-326311.jpg);
+    background-size:180%;
+    background-position: center;
+    padding-bottom: 60px;
+    padding-top: 20px;
+    background-attachment: inherit;
+
+}
+
+.menu-section h2 {
+    color: white;
+    font-size: 230%;
+    width: 100%;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+
+}
+
+.menu-btn {
+
+    display: block;
+    margin-left: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: auto;
+
+}
+.menu-btn img {
+
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.picture-section{
+
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid rgba(245, 245, 245, 0.94);
+}
+
+
+.gallery-text {
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 200%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 50px;
+
+
+}
+
+.picture-section img {
+    height: auto;
+    overflow: hidden;
+    float:inherit;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+
+
+}
+.picture-section .row {
+    padding-bottom: 16px;
+}
+
+.picture-section .column {
+  float: inherit;
+  width: auto;
+  max-width: 60%;
+  padding-right: 5px;
+  padding-left: 110px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.picture-section .column img:hover {
+
+    -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+
+.picture-section .row::after {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.our-locations {
+
+    padding-bottom: 150px;
+    background-color: #ffffff;
+
+}
+
+.our-locations h1 {
+
+    color: black;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.our-locations .row {
+    padding-left: 0px;
+
+}
+
+.our-locations img {
+    height: 400px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+
+}
+
+.our-locations h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 350;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.our-locations .column {
+  float: left;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+    .overlay h2 {
+            font-size: 300%;
+    }
+
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+
+.our-locations .column:hover .overlay {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-section {
+
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #f5f5f5;
+}
+
+.testimonial-section .row {
+    padding-left: 0px;
+}
+
+
+.testimonial-section .column {
+
+    width: 20%;
+    padding-left: 50px;
+    float: left;
+
+
+}
+
+.testimonial-section h1 {
+
+    color: black;
+    text-align-last: center;
+    width: 100%;
+    font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+
+
+blockquote {
+    padding: 2%;
+    font-size: 85%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial-section cite {
+    padding-top: 10px;
+    font-size: 120%;
+    font-weight: 1000;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonial-section img {
+
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-poster {
+
+    width: 40%;
+    padding-left: 40px;
+    float: left;
+
+
+}
+
+.app-section h1 {
+
+    color:black;
+    font-weight: 400;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+.app-section .column {
+
+
+}
+
+.app-section .app-description {
+
+    float: right;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.app-section .app-store img {
+
+    width: 40%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+
+}
+
+.app-section .play-store img {
+
+    width: 43%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 35px;
+
+}
+
+
+
+
+
+
+
+.form-section {
+
+    padding-top: 50px;
+    background-color:#f5f5f5;
+
+}
+
+.form-section .row {
+
+
+    font-size: 120%;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.form-title {
+
+    padding-bottom: 50px;
+    font-size: 200%;
+
+}
+
+
+.form-title h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.entire-form {
+
+    padding-left: 60px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.about-us {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+
+}
+
+.about-us h3 {
+
+    text-align: center;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.about-us h2 a {
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    padding-right: 10px;
+    font-size: 75%;
+    text-align: center;
+
+
+}
+
+
+.about-us h2 a:hover {
+
+    border: 2px solid #0ea9ed;
+    color: black;
+    -webkit-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+
+}
+
+.about-us h2 {
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+
+.about-us .column ul li {
+
+
+    font-size: 150%;
+    float: inherit;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.footer-nav {
+
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+
+}
+
+.about-us {
+
+
+}
+
+
+
+.social-media {
+
+    padding-top: 27px;
+    padding-right: 0px;
+    padding-left: 220px;
+
+}
+
+.social-media .column li {
+
+    float: left;
+    font-size: 250%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 60px;
+    text-align: center;
+
+}
+
+.social-media .ion-social-twitter:hover {
+
+    color:aqua;
+
+
+}
+
+.social-media .ion-social-instagram:hover {
+
+    color:#E1306C;
+
+}
+.social-media .ion-social-facebook:hover {
+
+    color: #3b5998 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*  iPhone 6/7/8 PLUS */
+/*  from 400 to 450px */
+/* ------------------------------*/
+
+
+@media (min-width: 401px) and (max-width: 500px) {
+
+
+
+
+
+
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/steak-and-flames-on-the-grill.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/steak-and-flames-on-the-grill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: inherit;
+
+}
+
+
+
+h1 {
+
+    margin-top: 5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-weight: 400;
+}
+
+h3 {
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+
+
+    height: 50%;
+    width: 70%;
+    float: left;
+    margin-left: 55px;
+
+
+}
+
+header {
+            padding-bottom: 300px;
+    padding-top: 70px;
+
+
+}
+
+    header h1 {
+
+        visibility: hidden;
+
+    }
+
+
+.main-navigation {
+    padding-top: 0px;
+    text-align: center;
+    list-style: none;
+    display: block;
+
+
+}
+
+.main-navigation li {
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-right: 130px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 13px;
+    border: 1.3px solid white;
+    border-radius: 40px;
+
+
+
+}
+
+.main-navigation li:hover {
+    font-size: 33px;
+    -webkit-transition: 0.8s font-size ease-out;
+    transition: 0.8s font-size ease-out;
+}
+
+.main-navigation li a:hover {
+
+    border-bottom: 4px double #ebaf40;
+    -webkit-transition: 0.2s border-bottom ease;
+    transition: 0.2s border-bottom ease;
+
+
+}
+
+
+
+
+.main-navigation li a:link,
+.main-navigation li a:visited {
+    color: beige;
+    text-decoration: none;
+
+
+}
+
+.center {
+
+    font-weight: 300;
+    text-align: center;
+    margin: auto 0;
+    display: block;
+    margin-top:  150px;
+
+}
+
+.row {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-section{
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/close-up-of-wooden-plank-326311.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/close-up-of-wooden-plank-326311.jpg);
+    background-size:180%;
+    background-position: center;
+    padding-bottom: 60px;
+    background-attachment: inherit;
+
+}
+
+.menu-section h2 {
+    color: white;
+    font-size: 150%;
+    width: 100%;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 50px;
+
+}
+
+.menu-btn {
+
+    display: block;
+    margin-left: 86px;
+    padding-left: 0px;
+    margin-right: auto;
+
+}
+.menu-btn img {
+
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.picture-section{
+
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid rgba(245, 245, 245, 0.94);
+}
+
+
+.gallery-text {
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 50px;
+
+
+}
+
+.picture-section img {
+    height: auto;
+    overflow: hidden;
+    float:inherit;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+
+
+}
+.picture-section .row {
+    padding-bottom: 16px;
+}
+
+.picture-section .column {
+  float: inherit;
+  width: auto;
+  max-width: 80%;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.picture-section .column img:hover {
+
+    -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+
+.picture-section .row::after {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.our-locations {
+
+    padding-bottom: 150px;
+    background-color: #ffffff;
+
+}
+
+.our-locations h1 {
+
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.our-locations .row {
+    padding-left: 0px;
+
+}
+
+.our-locations img {
+    height: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+
+}
+
+.our-locations h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 350;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.our-locations .column {
+  float: left;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+    .overlay h2 {
+            font-size: 200%;
+    }
+
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+
+.our-locations .column:hover .overlay {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-section {
+
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #f5f5f5;
+}
+
+.testimonial-section .row {
+    padding-left: 0px;
+}
+
+
+.testimonial-section .column {
+
+    width: 20%;
+    padding-left: 50px;
+    float: left;
+
+
+}
+
+.testimonial-section h1 {
+
+    color: black;
+    text-align-last: center;
+    width: 100%;
+    font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+
+
+blockquote {
+    padding: 2%;
+    font-size: 120%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial-section cite {
+    padding-top: 10px;
+    font-size: 120%;
+    font-weight: 1000;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonial-section img {
+
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-poster {
+
+    width: 80%;
+    padding-left: 40px;
+    float: left;
+
+
+}
+
+.app-section h1 {
+
+    color:black;
+    font-weight: 400;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+.app-section .column {
+
+
+}
+
+.app-section .app-description {
+
+    float: right;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.app-section .app-store img {
+
+    width: 50%;
+    float: left;
+    padding-left: 90px;
+    padding-bottom: 10px;
+
+}
+
+.app-section .play-store img {
+
+    width: 55%;
+    float: left;
+    padding-left: 83px;
+
+}
+
+
+
+
+
+
+
+.form-section {
+
+    padding-top: 50px;
+    background-color:#f5f5f5;
+
+}
+
+.form-section .row {
+
+
+    font-size: 120%;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.form-title {
+
+    padding-bottom: 50px;
+    font-size: 200%;
+
+}
+
+
+.form-title h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.entire-form {
+
+    padding-left: 60px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.about-us {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+
+}
+
+.about-us h3 {
+
+    text-align: center;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.about-us h2 a {
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    padding-right: 10px;
+    font-size: 75%;
+    text-align: center;
+
+
+}
+
+
+.about-us h2 a:hover {
+
+    border: 2px solid #0ea9ed;
+    color: black;
+    -webkit-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+
+}
+
+.about-us h2 {
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+
+.about-us .column ul li {
+
+
+    font-size: 150%;
+    float: inherit;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.footer-nav {
+
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+
+}
+
+.about-us {
+
+
+}
+
+
+
+.social-media {
+
+    padding-top: 27px;
+    padding-right: 0px;
+    padding-left: 50px;
+
+}
+
+.social-media .column li {
+
+    float: left;
+    font-size: 250%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 60px;
+    text-align: center;
+
+}
+
+.social-media .ion-social-twitter:hover {
+
+    color:aqua;
+
+
+}
+
+.social-media .ion-social-instagram:hover {
+
+    color:#E1306C;
+
+}
+.social-media .ion-social-facebook:hover {
+
+    color: #3b5998 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------*/
+/*        iPhone 6/7/8/X          */
+/* Small phones: from 0 to 400px */
+/* ------------------------------*/
+@media (min-width: 0px) and (max-width: 400px) {
+
+
+
+header {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/steak-and-flames-on-the-grill.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/steak-and-flames-on-the-grill.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    background-attachment: inherit;
+
+}
+
+
+
+h1 {
+
+    margin-top: 5;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 100%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+h2 {
+
+    font-weight: 400;
+}
+
+h3 {
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.logo {
+
+
+    height: 50%;
+    width: 60%;
+    float: left;
+    margin-left: 70px;
+
+
+}
+
+header {
+            padding-bottom: 200px;
+
+
+}
+
+    header h1 {
+
+        visibility: hidden;
+
+    }
+
+
+.main-navigation {
+    padding-top: 0px;
+    text-align: center;
+    list-style: none;
+    display: block;
+
+
+}
+
+.main-navigation li {
+
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 13px;
+    border: 1.3px solid white;
+    border-radius: 40px;
+
+
+
+}
+
+.main-navigation li:hover {
+    font-size: 33px;
+    -webkit-transition: 0.8s font-size ease-out;
+    transition: 0.8s font-size ease-out;
+}
+
+.main-navigation li a:hover {
+
+    border-bottom: 4px double #ebaf40;
+    -webkit-transition: 0.2s border-bottom ease;
+    transition: 0.2s border-bottom ease;
+
+
+}
+
+
+
+
+.main-navigation li a:link,
+.main-navigation li a:visited {
+    color: beige;
+    text-decoration: none;
+
+
+}
+
+.center {
+
+    font-weight: 300;
+    text-align: center;
+    margin: auto 0;
+    display: block;
+    margin-top:  150px;
+
+}
+
+.row {
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-section{
+
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.3))), url(img/close-up-of-wooden-plank-326311.jpg);
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(img/close-up-of-wooden-plank-326311.jpg);
+    background-size:180%;
+    background-position: center;
+    padding-bottom: 30px;
+    background-attachment: inherit;
+
+}
+
+.menu-section h2 {
+    color: white;
+    font-size: 140%;
+    width: 100%;
+    word-spacing: 0px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.menu-btn {
+
+    display: block;
+    margin-left: 100px;
+    padding-left: 0px;
+    margin-right: auto;
+
+}
+.menu-btn img {
+
+    width: 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.picture-section{
+
+    padding-left: 60px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    background-color: #f5f5f5;
+    border-bottom: 5px solid rgba(245, 245, 245, 0.94);
+}
+
+
+.gallery-text {
+
+    color: black;
+    letter-spacing: 3px;
+    font-size: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 50px;
+
+
+}
+
+.picture-section img {
+    height: auto;
+    overflow: hidden;
+    float:inherit;
+    -webkit-transform: scale(1.13);
+    transform: scale(1.13);
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+    transition: transform 0.5s, -webkit-transform 0.5s;
+    max-height: 100%;
+    max-width: 100%;
+    -webkit-filter: brightness(60%);
+    -webkit-transition: -webkit-transform 0.5s filter 0.5s;
+    transition: -webkit-transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s;
+    transition: transform 0.5s filter 0.5s, -webkit-transform 0.5s filter 0.5s;
+
+
+}
+.picture-section .row {
+    padding-bottom: 16px;
+}
+
+.picture-section .column {
+  float: inherit;
+  width: auto;
+  max-width: 80%;
+  padding-right: 5px;
+  padding-left: 5px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 10px;
+
+}
+
+.picture-section .column img:hover {
+
+    -webkit-filter: brightness(100%);
+    -webkit-transform: scale(1.09);
+    transform: scale(1.09);
+    -webkit-transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: -webkit-transform 0.5s, -webkit-filter 0.7s;
+    transition: transform 0.5s, filter 0.7s;
+    transition: transform 0.5s, filter 0.7s, -webkit-transform 0.5s, -webkit-filter 0.7s;
+}
+
+
+.picture-section .row::after {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.our-locations {
+
+    padding-bottom: 150px;
+    background-color: #ffffff;
+
+}
+
+.our-locations h1 {
+
+    color: black;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.our-locations .row {
+    padding-left: 0px;
+
+}
+
+.our-locations img {
+    height: 200px;
+    max-height: 100%;
+    max-width: 100%;
+    display: block;
+    width: 100%;
+
+}
+
+.our-locations h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: 350;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.our-locations .column {
+  float: left;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  margin-right: 50px;
+  margin-left: 50px;
+
+}
+
+    .overlay h2 {
+            font-size: 200%;
+    }
+
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  background-color: black;
+}
+
+.our-locations .column:hover .overlay {
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-section {
+
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background-color: #f5f5f5;
+}
+
+.testimonial-section .row {
+    padding-left: 0px;
+}
+
+
+.testimonial-section .column {
+
+    width: 20%;
+    padding-left: 50px;
+    float: left;
+
+
+}
+
+.testimonial-section h1 {
+
+    color: black;
+    text-align-last: center;
+    width: 100%;
+    font-size: 150%;
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+
+
+
+blockquote {
+    padding: 2%;
+    font-size: 120%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+blockquote:before {
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.testimonial-section cite {
+    padding-top: 10px;
+    font-size: 120%;
+    font-weight: 1000;
+    margin-top: 25px;
+    display: block;
+}
+
+.testimonial-section img {
+
+    width: 15%;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-right: 50px;
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app-section {
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.app-section .app-poster {
+
+    width: 80%;
+    padding-left: 40px;
+    float: left;
+
+
+}
+
+.app-section h1 {
+
+    color:black;
+    font-weight: 400;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+
+}
+
+.app-section .column {
+
+
+}
+
+.app-section .app-description {
+
+    float: right;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+}
+
+.app-section .app-store img {
+
+    width: 50%;
+    float: left;
+    padding-left: 90px;
+    padding-bottom: 10px;
+
+}
+
+.app-section .play-store img {
+
+    width: 55%;
+    float: left;
+    padding-left: 83px;
+
+}
+
+
+
+
+
+
+
+.form-section {
+
+    padding-top: 50px;
+    background-color:#f5f5f5;
+
+}
+
+.form-section .row {
+
+
+    font-size: 120%;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.form-title {
+
+    padding-bottom: 50px;
+    font-size: 200%;
+
+}
+
+
+.form-title h1 {
+
+    color:black;
+    font-weight: 300;
+
+}
+
+.entire-form {
+
+    padding-left: 60px;
+    padding-bottom: 100px;
+
+}
+
+
+
+
+
+
+
+.about-us {
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: gainsboro;
+
+}
+
+.about-us h3 {
+
+    text-align: center;
+    font-weight: 300;
+    font-size: 200%;
+}
+
+.about-us h2 a {
+    color: cornflowerblue;
+    letter-spacing: 10px;
+    padding-right: 10px;
+    font-size: 75%;
+    text-align: center;
+
+
+}
+
+
+.about-us h2 a:hover {
+
+    border: 2px solid #0ea9ed;
+    color: black;
+    -webkit-transition: 0.5s border ease;
+    transition: 0.5s border ease;
+
+}
+
+.about-us h2 {
+    text-align: center;
+
+    padding-left: 50px;
+
+}
+
+
+.about-us .column ul li {
+
+
+    font-size: 150%;
+    float: inherit;
+    color: white;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.footer-nav {
+
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+
+}
+
+.about-us {
+
+
+}
+
+
+
+.social-media {
+
+    padding-top: 27px;
+    padding-right: 0px;
+
+}
+
+.social-media .column li {
+
+    float: left;
+    font-size: 250%;
+    color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding-left: 50px;
+    text-align: center;
+
+}
+
+.social-media .ion-social-twitter:hover {
+
+    color:aqua;
+
+
+}
+
+.social-media .ion-social-instagram:hover {
+
+    color:#E1306C;
+
+}
+.social-media .ion-social-facebook:hover {
+
+    color: #3b5998 ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
